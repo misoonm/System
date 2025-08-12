@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://127.0.0.1/schoolmanagement/login -->
+<html lang="ar" dir="rtl" class="rtl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- All Meta Tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="http://127.0.0.1/schoolmanagement/public/uploads/settings/278434ffca00be18ca33390150b17ac5.jpg" type="image/png">
+    <title>تسجيل الدخول</title>
+    <meta name="_token" content="7GSeFQnCJtv4tN4Ms1ziC1xvT72QVpSHoUfo8ucm">
+
+    <!-- Fonts -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./تسجيل الدخول_files/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="./تسجيل الدخول_files/fontawesome.all.min.css">
+
+        <link rel="stylesheet" href="./تسجيل الدخول_files/style_rtl.css">
+            <style>
+        .row_gap_24 {
+            row-gap: 24px;
+        }
+
+        .login{
+            height: auto;
+            min-height: 100vh;
+            padding: 50px 0px;
+        }
+
+        .row_gap_24 input.input-control-input {
+            font-size: 12px;
+        }
+
+        .login_wrapper {
+            width: 550px;
+            background: #fff;
+            padding: 30px;
+        }
+
+        .text-danger.text-left {
+            font-size: 14px;
+        }
+        .row.row-gap-10 {
+            row-gap: 10px;
+            --bs-gutter-x: 10px;
+        }
+
+        .row.row-gap-10 .input-control-input{
+            padding: 10px;
+        }
+
+        .row.row-gap-10 [class*=col-]{
+            --bs-gutter-x: 10px;
+        }
+
+        .row-gap-10 input.input-control-input {
+            font-size: 11px;
+        }
+        @media only screen and (max-width: 767px){
+                section.login {
+                    place-content: center;
+                    align-content: center;
+                    justify-content: center;
+            }
+        }
+        @media (max-width: 480px){
+            .row.row-gap-10 [class*=col-]{
+                width: 50%;
+                max-width: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body style="overflow: visible;">
+
+    <section class="login" style="background: url(http://127.0.0.1/schoolmanagement/public/backEnd/img/edulia-login-bg.jpg) no-repeat center; background-size: cover; ">
+        <div class="login_wrapper">
+
+            
+
+            <!-- login form start -->
+            <div class="login_wrapper_login_content">
+                <div class="login_wrapper_logo text-center"><img src="./تسجيل الدخول_files/884c0696f7e350456a8c329e9741576a.jpg" alt=""></div>
+                <div class="login_wrapper_content">
+                    <h4>بيانات الدخول</h4>
+                    <form action="http://127.0.0.1/schoolmanagement/login" method="POST">
+                        <input type="hidden" name="_token" value="7GSeFQnCJtv4tN4Ms1ziC1xvT72QVpSHoUfo8ucm" autocomplete="off">                        <input type="hidden" name="username" id="username-hidden">
+                        <div class="input-control">
+                            <label for="#" class="input-control-icon"><i class="fal fa-envelope"></i></label>
+                            <input type="text" name="email" class="input-control-input" placeholder="أدخل البريد الإلكتروني" value="">
+                        </div>
+                                                <div class="input-control">
+                            <label for="#" class="input-control-icon"><i class="fal fa-lock-alt"></i></label>
+                            <input type="password" name="password" class="input-control-input" placeholder="أدخل كلمة المرور">
+                        </div>
+                                                <div class="input-control d-flex flex-wrap row_gap_24">
+                            <label for="#" class="checkbox">
+                                <input type="checkbox" class="checkbox-input" name="remember" id="rememberMe">
+                                <span class="checkbox-title">تذكرني</span>
+                            </label>
+                            <a href="http://127.0.0.1/schoolmanagement/recovery/password" id="forget">نسيت كلمة المرور?</a>
+                        </div>
+                        <div class="input-control">
+                            <input type="submit" class="input-control-input" value="Sign In">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+                        <!-- login form end -->
+                                </div>
+
+    </section>
+
+
+    <!-- jQuery JS -->
+    <script src="./تسجيل الدخول_files/jquery.min.js.تنزيل"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Toastr JavaScript file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    <!-- Main Script JS -->
+    <script src="./تسجيل الدخول_files/script.js.تنزيل"></script><!--back to top btn--><a href="http://127.0.0.1/schoolmanagement/login#" class="backtop"><i class="far fa-long-arrow-alt-up" <="" i=""></i></a>
+    <script src="./تسجيل الدخول_files/login.js.تنزيل"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#email-address").keyup(function() {
+                $("#username-hidden").val($(this).val());
+            });
+        });
+    </script>
+     <script>
+            </script>
+
+
+
+</body></html>
